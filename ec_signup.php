@@ -82,50 +82,73 @@ and open the template in the editor.
     <body>
         
         
-        <div class="container ">
-            <div class="row row_style">
-                <div class="col-xs-6">
-                    <div class="panel panel-default">
-                        
-                    </div>  
-                </div>
-            </div>
-        </div>
-        
-         <div class="modal-container " id="modal_container" >
+        <div class="hero" >
+            <!--<img src="ecommerce images/background.png">-->
+            
+                    <div class="modal-container " id="modal_container" >
                              <div id="modal" >
                                  <form id="Register_modal" method="post" action="user_registration_script.php">
                                 
                                      <div class="form-group">
-                                        <label for="yourname">Your name:</label>
-                                        <input type="text" class="form-control input-lg" name="yourname">   
+                                        <!--<label for="yourname">Your name:</label>-->
+                                        <input type="text" class="form-control input-lg" name="yourname" placeholder="Name">   
                                      </div>
-                                <br>
-                                   
-                                 <div class="form-group">
-                                    <label for="lastname">Last name</label>
-                                    <input type="text" class="form-control" name="lastname" placeholder="Last name" >
-                                 </div>
-                                <br>
-                                <div class="form-group">
-                                <!--<label for="mobilenumber">Mobile number:</label>-->
-                                Mobile name:<input type="tel" class="form-control" name="mobilenumber" >  
-                                </div>
-                                <br>
+                                     <div class="form-group">
+                                        <!--<label for="email">Email</label>-->
+                                        <input type="text" class="form-control" name="email" placeholder="Email" >
+                                     </div>
+                                     <div class="form-group">
+                                        <!--<label for="email">Email</label>-->
+                                        <input type="password" class="form-control" name="email" placeholder="Password" >
+                                    </div>
+                                    <div class="form-group">
+                                        <!--<label for="mobilenumber">Mobile number:</label>-->
+                                        <input type="tel" class="form-control" name="contact" placeholder="Contact" >  
+                                    </div>
+                                    <div class="form-group">
+                                        <!--<label for="mobilenumber">Mobile number:</label>-->
+                                        <input type="text" class="form-control" name="city" placeholder="City" >  
+                                    </div>
+                                    <div class="form-group">
+                                        <!--<label for="mobilenumber">Mobile number:</label>-->
+                                        <input type="text" class="form-control" name="address" placeholder="Address" >  
+                                    </div>
                                 
-                                <div class="form-group">
-                                    <label for="email">Email</label>
-                                    <input type="text" class="form-control" name="email" placeholder="Email" >
-                                </div>
-                                <br>
-                                 <button <input type="submit" class="btn btn-danger btn-block">Continue</button>
-                                  
-                                 <button <input type="close" class="btn btn-danger btn-block">Close</button>
-                                </form>
+                                     <div class="row">
+                                         <div class="col-lg-4">
+                                             
+                                         </div>
+                                         <div class="col-lg-4">
+                                             <button <input type="submit" class="btn btn-primary btn-block">Continue</button>
+                                         </div>
+                                         <div class="col-lg-4">
+                                             <button <input type="close" class="btn btn-primary btn-block">Close</button>
+                                         </div>
+                                     </div>
+                                 
+                                 </form>
                                 
                             </div>
-                                
         </div> 
+            
+            <div class="bubbles">
+                <img src="ecommerce images/bubble.png"> 
+                <img src="ecommerce images/bubble.png">
+                <img src="ecommerce images/bubble.png">
+                <img src="ecommerce images/bubble.png">
+                <img src="ecommerce images/bubble.png">
+                <img src="ecommerce images/bubble.png">
+                <img src="ecommerce images/bubble.png">
+                <img src="ecommerce images/bubble.png">
+                <img src="ecommerce images/bubble.png">
+                <img src="ecommerce images/bubble.png">
+            </div>
+            
+            
+            
+        </div>
+        
+
                         
         
     </body>
